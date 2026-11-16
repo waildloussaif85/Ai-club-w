@@ -378,3 +378,4 @@ function aiMove() {
     if (gameOver) return;
     const empty = board.map((v, i) => v === "" ? i : null).filter(v => v !== null);
     if (empty.length === 0) return;
+}
