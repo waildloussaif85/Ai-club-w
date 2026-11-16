@@ -166,7 +166,6 @@ function setAgeGroup(group, btn) {
 }
 
 function toggleGuide() { document.getElementById("guide-modal").classList.toggle("hidden"); }
-
 // 1. الرؤية الحاسوبية الحقيقية (تعمل فوراً + تحليل بصري مباشر)
 let visionModel = null;
 let visionRunning = false;
